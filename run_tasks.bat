@@ -1,0 +1,9 @@
+@echo off
+echo Generando diapositivas...
+python generate_slides.py
+echo Agregando a git...
+git add .
+git commit -m "Actualizacion completa: Laboratorios, ejercicios y diapositivas (Unidades 1-5)"
+echo Subiendo por FTP...
+python deploy_physics.py
+echo Proceso finalizado.

@@ -1,0 +1,19 @@
+# Variables de entorno y credenciales sensibles
+.env
+.env.local
+.env.*.local
+
+# Carpeta de configuración del asistente y temporales
+.gemini/
+.idea/
+.vscode/
+
+# Caché de Python (despliegue)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de sistema y de desarrollo local
+Thumbs.db
+.DS_Store
+node_modules/
